@@ -33,6 +33,7 @@
 #include <iostream>
 #include <map>
 #include <functional>
+#include "includes.h"
 #include "problem_map.h" // Dynamically generated problem map
 
 using namespace std;
@@ -43,7 +44,7 @@ int main() {
     // cout << "Select problem to test by ID (e.g., 1A, 2057A, 2057B): ";
     string choice;
     // cin >> choice;
-    choice = "1A";
+    choice = "118A";
 
     if (problems.find(choice) != problems.end()) {
         problems[choice](); // Call the selected problem-solving function

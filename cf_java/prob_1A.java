@@ -5,10 +5,10 @@ public class prob_1A {
         Scanner scanner = new java.util.Scanner(System.in);
         int t = 1;
         while (t-- > 0) {
-            int n = scanner.nextInt();
-            int m = scanner.nextInt();
-            int a = scanner.nextInt();
-            int result = ((n + a - 1) / a) * ((m + a - 1) / a);
+            long n = scanner.nextInt();
+            long m = scanner.nextInt();
+            long a = scanner.nextInt();
+            long result = ((n + a - 1) / a) * ((m + a - 1) / a);
             System.out.println(result);
         }
     }
