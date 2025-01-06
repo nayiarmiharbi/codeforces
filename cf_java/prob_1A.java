@@ -11,5 +11,6 @@ public class prob_1A {
             long result = ((n + a - 1) / a) * ((m + a - 1) / a);
             System.out.println(result);
         }
+        scanner.close();
     }
 }
