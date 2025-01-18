@@ -146,6 +146,7 @@ This repository is licensed under the MIT License. See the [LICENSE](LICENSE) fi
 
 For any questions or feedback, please open an issue in this repository.
 Also email [Raiyan_Ibrahim](mailto:miharbinayiar@gmail.com)
+
 ---
 
 *Note: This repository is a personal project and is not affiliated with Codeforces.*
