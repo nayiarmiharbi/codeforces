@@ -72,9 +72,9 @@ This repository contains solutions to problems from [Codeforces](https://codefor
    docker run -it --rm -v $(pwd):/workspace cf_cpp
    ```
 3. Run the solutions:
-  ```bash
-  ./build.sh
-  ```
+    ```bash
+    ./build.sh
+    ```
 
 #### **Without Docker (Local Setup)**
 - Prerequisites: Install **GCC** and **Bash**.
