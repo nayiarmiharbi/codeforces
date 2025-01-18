@@ -71,6 +71,10 @@ This repository contains solutions to problems from [Codeforces](https://codefor
    ```bash
    docker run -it --rm -v $(pwd):/workspace cf_cpp
    ```
+3. Run the solutions:
+  ```bash
+  ./build.sh
+  ```
 
 #### **Without Docker (Local Setup)**
 - Prerequisites: Install **GCC** and **Bash**.
@@ -141,7 +145,7 @@ This repository is licensed under the MIT License. See the [LICENSE](LICENSE) fi
 ## Contact
 
 For any questions or feedback, please open an issue in this repository.
-Also email **[Raiyan_Ibrahim](mailto:miharbinayiar@gmail.com)**
+Also email [Raiyan_Ibrahim](mailto:miharbinayiar@gmail.com)
 ---
 
 *Note: This repository is a personal project and is not affiliated with Codeforces.*
