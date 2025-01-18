@@ -1,0 +1,47 @@
+{
+	"C++ File Template": {
+		"scope": "cpp",
+		"prefix": "cfcpp",
+		"description": "C++ main file template with file references",
+		"body": [
+			"#include <bits/stdc++.h>",
+			"using namespace std;",
+			"",
+			"void solve_${TM_FILENAME_BASE}() {",
+			"    $0",
+			"}",
+			"",
+			"void ${TM_FILENAME_BASE}() {",
+			"    int t = 1;",
+			"    ${1:// cin >> t;}",
+			"    while (t--) {",
+			"        solve_${TM_FILENAME_BASE}();",
+			"    }",
+			"}"
+		]
+	},
+	"initialize new int": {
+        "prefix": "cinint",
+        "scope": "cpp",
+        "description": "Initializes a new integer from input",
+        "body": [
+            "int ${1:n}; cin >> ${1:n};"
+        ]
+    },
+    "initialize new string": {
+        "prefix": "cinstr",
+        "scope": "cpp",
+        "description": "Initializes a new string from input",
+        "body": [
+            "string ${1:x}; cin >> ${1:x};"
+        ]
+    },
+	"Output": {
+        "prefix": "out",
+        "scope": "cpp",
+        "description": "Console output",
+        "body": [
+            "cout << ${1:foobar} << endl;"
+        ]
+    }
+}

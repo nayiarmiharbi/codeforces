@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Create Input and Output Files",
+        "type": "shell",
+        "command": "python",
+        "args": [
+          "create_files.py",
+          "${fileBasenameNoExtension}"
+        ],
+        "problemMatcher": [],
+        "detail": "Creates input and output files for the current C++ file.",
+        "group": {
+          "kind": "build",
+          "isDefault": false
+        }
+      }
+    ]
+  }

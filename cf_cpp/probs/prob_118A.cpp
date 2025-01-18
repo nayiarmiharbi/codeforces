@@ -1,5 +1,4 @@
-#include<bits/stdc++.h>
-
+#include <bits/stdc++.h>
 using namespace std;
 
 void solve_prob_118A() {
@@ -15,4 +14,12 @@ void solve_prob_118A() {
         cout << "." << s[i];
     }
     cout << endl;
+}
+
+void prob_118A() {
+    int t = 1;
+    // cin >> t;
+    while (t--) {
+        solve_prob_118A();
+    }
 }

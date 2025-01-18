@@ -1,7 +1,8 @@
+import java.util.*;
+
 public class prob_118A {
-    public static void main(String[] args) {
-        java.util.Scanner scanner = new java.util.Scanner(System.in);
-        String s = scanner.next();
+    public static void solve(Scanner sc) {
+        String s = sc.next();
         s = s.toLowerCase();
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < s.length(); i++) {
@@ -13,6 +14,14 @@ public class prob_118A {
             sb.append(c);
         }
         System.out.println(sb.toString());
-        scanner.close();
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int t = 1;
+        // t = sc.nextInt();
+        while (t-- > 0) {
+            solve(sc);
+        }
+        sc.close();
     }
 }

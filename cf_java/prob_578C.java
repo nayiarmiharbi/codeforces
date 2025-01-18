@@ -1,12 +1,8 @@
 import java.util.*;
 
-public class prob_1A {
+public class prob_578C {
     public static void solve(Scanner sc) {
-        long n = sc.nextInt();
-        long m = sc.nextInt();
-        long a = sc.nextInt();
-        long result = ((n + a - 1) / a) * ((m + a - 1) / a);
-        System.out.println(result);
+        
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
