@@ -31,26 +31,29 @@ This repository contains solutions to problems from [Codeforces](https://codefor
 
 ```plaintext
 .
-├── cf_cpp/                   # C++ solutions and setup
-│   ├── build.sh              # Script to compile and run C++ solutions
-│   ├── create_files.py       # Script to generate input/output files
-│   ├── Dockerfile            # Docker setup for portable environment
-│   ├── includes.h            # Common header file for C++ solutions
-│   ├── main.cpp              # Entry point for testing solutions
-│   ├── problem_map.h         # Map linking problem IDs to filenames
-│   ├── input/                # Directory for input test cases
-│   ├── output/               # Directory for output test cases
-│   └── probs/                # Directory for problem solutions in C++
+├── cf_cpp/                               # C++ solutions and setup
+│   ├── build.sh                          # Script to compile and run C++ solutions
+│   ├── create_files.py                   # Script to generate input/output files
+│   ├── Dockerfile                        # Docker setup for portable environment
+│   ├── includes.h                        # Common header file for C++ solutions
+│   ├── main.cpp                          # Entry point for testing solutions
+│   ├── problem_map.h                     # Map linking problem IDs to filenames
+│   ├── input/                            # Directory for input test cases
+|       └── prob_{problemID}_in.txt       # C++ referance input file (e.g., prob_118A_in.txt)
+│   ├── output/                           # Directory for output test cases
+|       └── prob_{problemID}_out.txt      # C++ referance output file (e.g., prob_118A_out.txt)
+│   ├──probs/                             # Directory for problem solutions in C++
+|       └── prob_{problemID}.cpp          # C++ solutions (e.g., prob_118A.cpp)
+│   └── .vscode/                          # VSCode configurations for C++
+│       ├── cf_cpp.code-snippets          # C++ snippets for competitive programming
+│       ├── settings.json                 # VSCode settings
+│       └── tasks.json                    # Tasks for automated workflows
 │
-├── cf_java/                  # Java solutions and setup
-│   ├── prob_{problemID}.java # Java solutions (e.g., prob_118A.java)
-│   └── .vscode/              # VSCode snippets for Java
-│       └── cpjava.code-snippets # Java snippets for competitive programming
-│
-├── .vscode/                  # VSCode configurations for C++
-│   ├── cf_cpp.code-snippets  # C++ snippets for competitive programming
-│   ├── settings.json         # VSCode settings
-│   └── tasks.json            # Tasks for automated workflows
+└── cf_java/                              # Java solutions and setup
+    ├── prob_{problemID}.java             # Java solutions (e.g., prob_118A.java)
+    └── .vscode/                          # VSCode snippets for Java
+        └── cpjava.code-snippets          # Java snippets for competitive programming
+
 ```
 
 ---
@@ -81,7 +84,7 @@ This repository contains solutions to problems from [Codeforces](https://codefor
 - Use `cfcpp` as a snippet prefix for C++ templates.
 - Press `Ctrl + Shift + B` to:
   - Generate input/output files in `input/` and `output/`.
-  - Run the configured task for compilation and execution.
+  - Run the configured task for **Create Input Outpu Files**. (python 3 needed)
 
 #### **Solution Testing**
 1. Add the problem's input and output to:
@@ -138,8 +141,7 @@ This repository is licensed under the MIT License. See the [LICENSE](LICENSE) fi
 ## Contact
 
 For any questions or feedback, please open an issue in this repository.
-Also email [Raiyan](miharbinayiar@gmail.com)
-
+Also email **[Raiyan_Ibrahim](mailto:miharbinayiar@gmail.com)**
 ---
 
 *Note: This repository is a personal project and is not affiliated with Codeforces.*
