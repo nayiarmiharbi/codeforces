@@ -42,7 +42,7 @@ This repository contains solutions to problems from [Codeforces](https://codefor
 |   |   └── prob_{problemID}_in.txt       # C++ referance input file (e.g., prob_118A_in.txt)
 │   ├── output/                           # Directory for output test cases
 |   |   └── prob_{problemID}_out.txt      # C++ referance output file (e.g., prob_118A_out.txt)
-│   ├── probs/                             # Directory for problem solutions in C++
+│   ├── probs/                            # Directory for problem solutions in C++
 |   |   └── prob_{problemID}.cpp          # C++ solutions (e.g., prob_118A.cpp)
 │   └── .vscode/                          # VSCode configurations for C++
 │       ├── cf_cpp.code-snippets          # C++ snippets for competitive programming
