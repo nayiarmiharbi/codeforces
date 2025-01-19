@@ -88,7 +88,7 @@ This repository contains solutions to problems from [Codeforces](https://codefor
 - Use `cfcpp` as a snippet prefix for C++ templates.
 - Press `Ctrl + Shift + B` to:
   - Generate input/output files in `input/` and `output/`.
-  - Run the configured task for **Create Input Outpu Files**. (python 3 needed)
+  - Run the configured task for **Create Input Outpu Files**. ([python3](https://www.python.org/) required)
 
 #### **Solution Testing**
 1. Add the problem's input and output to:
