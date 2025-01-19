@@ -1,6 +1,6 @@
 # Codeforces Solutions Repository
 
-This repository contains solutions to problems from [Codeforces](https://codeforces.com/), implemented in C++ and Java. The repository is designed with portability, automation, and efficiency in mind, utilizing Docker for a consistent development environment and Visual Studio Code (VSCode) integration for seamless coding.
+This repository contains solutions to problems from [Codeforces](https://codeforces.com/), implemented in C++ and Java. The repository is designed with portability, automation, and efficiency in mind, utilizing Docker for a consistent development environment and Visual Studio Code ([VSCode](https://code.visualstudio.com/)) integration for seamless coding.
 
 ---
 
